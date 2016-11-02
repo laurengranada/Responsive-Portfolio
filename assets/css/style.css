@@ -205,43 +205,32 @@ footer {
 
 
 
+
+
+@media screen and (max-width: 980px) {
+	body {
+		background-color:#808080;
+	}
+
+}
+
 @media screen and (max-width: 768px) {
 	body {
 		background-color:#808080;
 	}
 
-	.wrapper {
-		width: 600px;
-	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
 	body {
 		background-color:#808080;
 	}
 
-	.wrapper {
-		width: 600px;
+	header {
+		position: static;
 	}
+
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-	body {
-		background-color:#808080;
-	}
-} /* for iphone 6 */
 
-
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-  	body {
-		background-color:#808080;
-	}
-
-} /* for ipad */
 
